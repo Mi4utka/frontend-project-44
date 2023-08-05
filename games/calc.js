@@ -2,17 +2,7 @@ import readlineSync from 'readline-sync';
 import get_random from "/mnt/c/Users/Admin/Desktop/frontend-project-44/functions/ get_random.js"
 import doMath from "/mnt/c/Users/Admin/Desktop/frontend-project-44/functions/doMath.js"
 const operator = ['*', '+', '-']
-  const numb = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
-    const numb11 = get_random(numb);
-    const numb12 = get_random(numb);
-    const numb21 = get_random(numb);
-    const numb22 = get_random(numb);
-    const numb31 = get_random(numb);
-    const numb32 = get_random(numb);
-    const operator1 = get_random(operator);
-    const operator2 = get_random(operator);
-    const operator3= get_random(operator);
-
+  const numb = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
   const calcGame = () => {
     let userName  = readlineSync.question('May I have your name? ');
     console.log('Hello ' + userName + '!');
