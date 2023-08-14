@@ -1,3 +1,4 @@
 #!/usr/bin/env node
-import  brainev from '../games/braineven.js';
-brainev ()
+import brainev from '../games/braineven.js';
+
+brainev();

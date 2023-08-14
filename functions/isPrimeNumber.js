@@ -1,15 +1,15 @@
 const isPrimeNumber = (numb) => {
-  let arr  = []
+  const arr = [];
   for (let i = 0; i <= numb; i += 1) {
-    if (numb % i === 0) { 
-      arr.push(i)}
+    if (numb % i === 0) {
+      arr.push(i);
+    }
   }
-    if (arr.length === 2) {
-      return 'yes'
-    }
-    else {
-      return 'no'
-    }
-}
+  if (arr.length === 2) {
+    return 'yes';
+  }
 
-export default isPrimeNumber
+  return 'no';
+};
+
+export default isPrimeNumber;

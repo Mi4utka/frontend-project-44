@@ -1,12 +1,12 @@
-function gcd(a,b) {
-    a = Math.abs(a);
-    b = Math.abs(b);
-    if (b > a) {var temp = a; a = b; b = temp;}
-    while (true) {
-        if (b == 0) return '' + a + '' ;
-        a %= b;
-        if (a == 0) return '' + b + '' ;
-        b %= a;
-    }
+function gcd(a, b) {
+  let aa = Math.abs(a);
+  let bb = Math.abs(b);
+  if (b > a) { const temp = aa; aa = b; bb = temp; }
+  while (true) {
+    if (bb === 0) return `${aa}`;
+    aa %= bb;
+    if (aa === 0) return `${bb}`;
+    bb %= aa;
+  }
 }
-export default gcd
+export default gcd;

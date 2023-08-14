@@ -1,18 +1,19 @@
-function doMath(x,znak,y){
-    var math = 0;
-    switch(znak) {
-        case '+':
-        math = x + y;
-        break;
- 
-        case '-':
-        math = x - y;
-        break;
- 
-        case '*':
-        math = x * y; 
-        break;
-    }
-    return '' + math + ''
+function doMath(x, znak, y) {
+  let math = 0;
+  switch (znak) {
+    case '+':
+      math = x + y;
+      break;
+
+    case '-':
+      math = x - y;
+      break;
+
+    case '*':
+      math = x * y;
+      break;
+    default:
+  }
+  return `${math}`;
 }
-export default doMath
+export default doMath;
