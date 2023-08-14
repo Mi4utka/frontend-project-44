@@ -1,3 +1,5 @@
+import getRandomIntInclusive from './getRandomIntInclusive.js';
+
 const getTenRandomNumbersInArray = () => {
   const progressionValue = getRandomIntInclusive(1, 9);
   let firstNumber = Math.round(Math.random() * 10);
