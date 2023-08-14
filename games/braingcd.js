@@ -1,5 +1,5 @@
 import readlineSync from 'readline-sync';
-
+import gcd from 'functions/gcd.js'
 function get_random(list) {
     return list[Math.floor((Math.random()*list.length))];
   }
@@ -12,17 +12,7 @@ const numb = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,
     const numb31 = get_random(numb);
     const numb32 = get_random(numb);
 
-function gcd(a,b) {
-    a = Math.abs(a);
-    b = Math.abs(b);
-    if (b > a) {var temp = a; a = b; b = temp;}
-    while (true) {
-        if (b == 0) return '' + a + '' ;
-        a %= b;
-        if (a == 0) return '' + b + '' ;
-        b %= a;
-    }
-}
+
 const gcdGame = () => {
 let userName  = readlineSync.question('May I have your name? ');
     console.log('Hello ' + userName + '!');
