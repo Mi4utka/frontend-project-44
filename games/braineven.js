@@ -20,7 +20,7 @@ if (answer1 === isEvenNumber(randomNumber1)){
     if (answer2 === isEvenNumber(randomNumber2)){
         let answer3 = readlineSync.question('Correct!\nQuestion: ' + randomNumber3 + '\nYour answer: ')
         if (answer3 === isEvenNumber(randomNumber3)){
-            console.log('Correct!\nCongratulations ' + userName + '!')
+            console.log('Correct!\nCongratulations, ' + userName + '!')
 
     }
     else {

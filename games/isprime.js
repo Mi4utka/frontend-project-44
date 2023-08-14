@@ -14,7 +14,7 @@ if (answer1 === isPrimeNumber(currentNumb)){
         currentNumb = getRandomInt()
         let answer3 = readlineSync.question('Correct!\nQuestion: ' + currentNumb + '\nYour answer: ')
         if (answer3 === isPrimeNumber(currentNumb)){
-            console.log('Correct!\nCongratulations ' + userName + '!')
+            console.log('Correct!\nCongratulations, ' + userName + '!')
 
     }
     else {
