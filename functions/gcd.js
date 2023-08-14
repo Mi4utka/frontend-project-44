@@ -1,6 +1,6 @@
 function gcd(a, b) {
-  let aa = Math.abs(a);
-  let bb = Math.abs(b);
+  let aa = a;
+  let bb = b;
 
   while (aa !== bb) {
     if (aa > bb) {
@@ -9,7 +9,7 @@ function gcd(a, b) {
       bb -= aa;
     }
   }
-  return aa;
+  return `${aa}`;
 }
 
 export default gcd;
