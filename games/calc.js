@@ -1,6 +1,6 @@
 import readlineSync from 'readline-sync';
-import get_random from "/mnt/c/Users/Admin/Desktop/frontend-project-44/functions/ get_random.js"
-import doMath from "/mnt/c/Users/Admin/Desktop/frontend-project-44/functions/doMath.js"
+import get_random from "../functions/get_random.js"
+import doMath from "../functions/doMath.js"
 const operator = ['*', '+', '-']
   const numb = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
   const calcGame = () => {

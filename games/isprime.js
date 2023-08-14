@@ -1,5 +1,5 @@
 import readlineSync from 'readline-sync';
-import getRandomIntInclusive from '/mnt/c/Users/Admin/Desktop/frontend-project-44-1/functions/getRandomIntInclusive.js'
+import getRandomIntInclusive from '../functions/getRandomIntInclusive.js'
 import isPrimeNumber from '../functions/isPrimeNumber.js';
 const getRandomInt = () => getRandomIntInclusive(0, 100)
 const isPrimeGame = () => {

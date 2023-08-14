@@ -1,5 +1,5 @@
 import readlineSync from 'readline-sync';
-import gcd from 'functions/gcd.js'
+import gcd from '../functions/gcd.js'
 function get_random(list) {
     return list[Math.floor((Math.random()*list.length))];
   }
