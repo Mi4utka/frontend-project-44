@@ -25,7 +25,7 @@ const makeOneMissing = (array, numberToBeMissing) => {
 
 const brainProgression = () => {
 let userName  = readlineSync.question('May I have your name? ');
-    console.log('Hello ' + userName + '!');
+    console.log('Hello, ' + userName + '!');
     let currentArray = getTenRandomNumbersInArray()
     let currentNumberToBeMissing = Math.round(Math.random() * 10)
     let currentProgression = makeOneMissing(currentArray, currentNumberToBeMissing) 

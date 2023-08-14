@@ -5,7 +5,7 @@ const operator = ['*', '+', '-']
   const numb = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
   const calcGame = () => {
     let userName  = readlineSync.question('May I have your name? ');
-    console.log('Hello ' + userName + '!');
+    console.log('Hello, ' + userName + '!');
     let currentFirstNumb = get_random(numb)
     let currentOperator = get_random(operator)
     let currentSecondNumb =get_random(numb)

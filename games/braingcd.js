@@ -15,7 +15,7 @@ const numb = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,
 
 const gcdGame = () => {
 let userName  = readlineSync.question('May I have your name? ');
-    console.log('Hello ' + userName + '!');
+    console.log('Hello, ' + userName + '!');
 let answer1 = readlineSync.question('Find the greatest common divisor of given numbers.\nQuestion: ' + numb11 + ' ' + numb12 + '\nYour answer: ')
 if (answer1 === gcd(numb11, numb12)){
     let answer2 = readlineSync.question('Correct!\nQuestion: ' + numb21 + ' ' + numb22 + '\nYour answer: ')

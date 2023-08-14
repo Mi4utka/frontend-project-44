@@ -4,7 +4,7 @@ import isPrimeNumber from '../functions/isPrimeNumber.js';
 const getRandomInt = () => getRandomIntInclusive(0, 100)
 const isPrimeGame = () => {
     let userName  = readlineSync.question('May I have your name? ');
-    console.log('Hello ' + userName + '!');
+    console.log('Hello, ' + userName + '!');
     let currentNumb = getRandomInt()
 let answer1 = readlineSync.question('Answer "yes" if given number is prime. Otherwise answer "no".\nQuestion: ' + currentNumb + '\nYour answer: ')
 if (answer1 === isPrimeNumber(currentNumb)){

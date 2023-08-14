@@ -13,7 +13,7 @@ const  randomNumber3 = Math.round(Math.random() * 10)
 
  const brainev = () => {
     let userName  = readlineSync.question('May I have your name? ');
-    console.log('Hello ' + userName + '!');
+    console.log('Hello, ' + userName + '!');
 let answer1 = readlineSync.question('Answer "yes" if the number is even, otherwise answer "no".\nQuestion: ' + randomNumber1 + '\nYour answer: ')
 if (answer1 === isEvenNumber(randomNumber1)){
     let answer2 = readlineSync.question('Correct!\nQuestion: ' + randomNumber2 + '\nYour answer: ')
