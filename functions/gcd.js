@@ -9,3 +9,4 @@ function gcd(a,b) {
         b %= a;
     }
 }
+export default gcd

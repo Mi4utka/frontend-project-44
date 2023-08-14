@@ -4,3 +4,4 @@ const makeOneMissing = (array, numberToBeMissing) => {
    arrayCopy[numberToBeMissing] = '..'
    return(arrayCopy.join(' '))
 }
+export default makeOneMissing

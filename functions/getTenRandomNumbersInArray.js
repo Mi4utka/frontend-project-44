@@ -8,3 +8,4 @@ const getTenRandomNumbersInArray = () => {
     }
     return array
     }
+    export default getTenRandomNumbersInArray

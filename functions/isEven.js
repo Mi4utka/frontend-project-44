@@ -6,3 +6,4 @@ const isEvenNumber = (number) => {
         return 'no';
     }
 }
+export default isEvenNumber
